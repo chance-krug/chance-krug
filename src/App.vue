@@ -1,31 +1,27 @@
 <template>
-  <div id="app">
-    <NavBar></NavBar>
-    <img alt="Vue logo" src="./assets/Logo1.png">
-    <HelloWorld msg="Welcome to my personal website. Currently under construction. Please come back soon to see the finished version!"/>
-  </div>
+  <v-app>
+    <v-container>
+      <v-layout>
+        <v-flex>
+          <NavBar></NavBar>
+          <router-view></router-view>
+        </v-flex>
+      </v-layout>
+    </v-container>
+  </v-app>
 </template>
 
 <script>
-  import Vue from 'vue';
-  import 'bootstrap';
-  import 'bootstrap/dist/css/bootstrap.min.css';
-  import BootstrapVue from 'bootstrap-vue';
-  import HelloWorld from './components/HelloWorld.vue'
-  import NavBar from "@/components/NavBar";
+  // @ is an alias to /src
+  import NavBar from '@/components/NavBar.vue'
 
-
-  Vue.use(BootstrapVue);
-
-export default {
-  name: 'app',
-  components: {
-    NavBar, HelloWorld
-
+  export default {
+    name: '/',
+    components: {
+      NavBar
+    }
   }
-}
 </script>
-
 <style>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -34,5 +30,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.white-text{
+  color: white
 }
 </style>

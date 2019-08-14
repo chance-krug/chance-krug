@@ -1,44 +1,27 @@
 <template>
-<!--    &lt;!&ndash; Just an image &ndash;&gt;-->
-<!--    <nav class="navbar navbar-light bg-light fixed-top">-->
-<!--        <a class="navbar-brand" href="#">-->
-<!--            <img src="@/assets/Logo1.png" width="40" height="40" alt="">-->
-<!--        </a>-->
-<!--        <form class="form-inline">-->
-<!--            <button class="btn btn-outline-success" type="button">Contact Me</button>-->
-<!--        </form>-->
-<!--    </nav>-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand" href="#">
-            <img src="@/assets/Logo1.png" width="40" height="40" alt="">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#"> Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Education</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Experience</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Projects</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <v-container>
+        <v-layout>
+            <v-flex>
+                <v-app-bar color="blue-grey darken-1" dark fixed>
+                    <v-img src="@/assets/Logo1.png" max-width="40" max-height="60"> </v-img>
+                    <v-tabs fixed-tabs background-color="blue-grey darken-1" color="white">
+                        <v-tab class="text-capitalize bold" to="/">Home</v-tab>
+                        <v-tab class="text-capitalize bold" to="experience">Experience</v-tab>
+                        <v-tab class="text-capitalize bold" to="education">Education</v-tab>
+                        <v-tab class="text-capitalize bold" to="skills">Skills</v-tab>
+                        <v-tab class="text-capitalize bold" to="projects">Projects</v-tab>
+                    </v-tabs>
+                </v-app-bar>
+            </v-flex>
+        </v-layout>
+    </v-container>
 </template>
 <script>
 </script>
 
 <style scoped>
-
+    .bold{
+        font-weight: 900;
+        font-size: medium;
+    }
 </style>
