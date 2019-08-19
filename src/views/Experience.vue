@@ -17,7 +17,7 @@
                                     <v-list-item>Upgraded existing applications to allow for company upgrades to Java.</v-list-item>
                                 </v-list-item-content>
 
-                                <v-list-item-avatar size="200" tile>
+                                <v-list-item-avatar size="150" tile>
                                     <v-img contain src="@/assets/ChurchMutualLogo.png"></v-img>
                                 </v-list-item-avatar>
                             </v-list-item>
@@ -38,7 +38,7 @@
                                     <v-list-item>Maintained a secured and up to date records of grades.</v-list-item>
                                 </v-list-item-content>
 
-                                <v-list-item-avatar size="200" tile>
+                                <v-list-item-avatar size="150" tile>
                                     <v-img contain  src="@/assets/BlugoldLogo.png"></v-img>
                                 </v-list-item-avatar>
                             </v-list-item>
@@ -72,7 +72,7 @@
                                     <v-list-item>Worked in an agile environment.</v-list-item>
                                 </v-list-item-content>
 
-                                <v-list-item-avatar size="200" tile>
+                                <v-list-item-avatar size="150" tile>
                                     <v-img contain src="@/assets/ChurchMutualLogo.png"></v-img>
                                 </v-list-item-avatar>
                             </v-list-item>
