@@ -19,7 +19,7 @@
                                     </v-list-item-content>
                                 </v-list-item>
                             </v-flex>
-                            <v-list-item-avatar size="150" tile>
+                            <v-list-item-avatar size="150" class="hidden-sm-and-up" tile>
                                 <v-img contain src="@/assets/ChurchMutualLogo.png"></v-img>
                             </v-list-item-avatar>
                         </v-card>
@@ -41,7 +41,7 @@
                                     </v-list-item-content>
                                 </v-list-item>
                             </v-flex>
-                                <v-list-item-avatar size="150" tile>
+                                <v-list-item-avatar size="150" class="hidden-sm-and-up" tile>
                                     <v-img contain  src="@/assets/BlugoldLogo.png"></v-img>
                                 </v-list-item-avatar>
                         </v-card>
@@ -58,7 +58,7 @@
                                     </v-list-item-content>
                                 </v-list-item>
                             </v-flex>
-                                <v-list-item-avatar size="150" tile>
+                                <v-list-item-avatar size="150" class="hidden-sm-and-up" tile>
                                     <v-img contain src="@/assets/ChurchMutualLogo.png"></v-img>
                                 </v-list-item-avatar>
                         </v-card>
@@ -77,7 +77,7 @@
                                     </v-list-item-content>
                                 </v-list-item>
                             </v-flex>
-                                <v-list-item-avatar size="150" tile>
+                                <v-list-item-avatar size="150" class="hidden-sm-and-up" tile>
                                     <v-img contain src="@/assets/ChurchMutualLogo.png"></v-img>
                                 </v-list-item-avatar>
                         </v-card>

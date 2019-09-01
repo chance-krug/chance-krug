@@ -4,7 +4,7 @@
             <v-flex>
                 <v-app-bar color="#385F73" dark fixed>
                     <v-tabs background-color="#385F73" color="white" class="hidden-xs-only">
-                        <v-tab class="text-capitalize bold" to="/home">Home</v-tab>
+                        <v-tab class="text-capitalize bold" to="/">Home</v-tab>
                         <v-tab class="text-capitalize bold" to="experience">Experience</v-tab>
                         <v-tab class="text-capitalize bold" to="skills">Skills</v-tab>
                         <v-tab class="text-capitalize bold" to="projects">Projects</v-tab>
@@ -29,10 +29,9 @@
         data: () => ({
             menuItems: [
                 {title: "Home", path: "/"},
-                {title: "About", path: "about"},
                 {title: "Experience", path: "experience"},
+                {title: "Skills", path: "skills"},
                 {title: "Projects", path: "projects"},
-                {title: "Interests", path: "interests"}
             ],
             menuColor: "grey darken-3"
         }),
